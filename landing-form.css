@@ -11,8 +11,8 @@ body {
 
 .card {
     background-color: rgb(38, 33, 54);
-    width: 60vw;
-    height: 90vh;
+    width: 400px;
+    /* height: 300px; */
     padding: 4rem;
     margin: 4rem auto;
     border-radius: 0.5rem;
