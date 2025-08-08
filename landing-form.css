@@ -4,3 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: rgb(38, 33, 54);
+    width: 60vw;
+    height: 80vh;
+    padding: 4rem;
+    margin: 4rem auto;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.card h3 {
+    
+}
