@@ -38,3 +38,30 @@ body {
     border-radius: 5px;
     border: none;
 }
+
+.sporty h1 {
+    color: red;
+}
+
+.sporty button {
+    background-color: red;
+    color: white;
+}
+
+.casual h1 {
+    color: blue;
+}
+
+.casual button {
+    background-color: blue;
+    color: white;
+}
+
+.formal h1 {
+    color: darkslategrey;
+}
+
+.formal button {
+    background-color: darkslategray;
+    color: white;
+}
