@@ -12,7 +12,7 @@ body {
 .card {
     background-color: rgb(38, 33, 54);
     width: 60vw;
-    height: 80vh;
+    height: 90vh;
     padding: 4rem;
     margin: 4rem auto;
     border-radius: 0.5rem;
@@ -29,3 +29,17 @@ body {
     line-height: 1.2rem;
 }
 
+.card input {
+    height: 2.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.card button {
+    height: 2.5rem;
+    width: 100%;
+    color: antiquewhite;
+    background-color: rgb(224, 100, 28);
+    border: none;
+}
