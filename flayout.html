@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>F-Layout Blog Example</title>
+    <style>
+      /* Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.6;
+        background: #f9fafb;
+        color: #333;
+      }
+
+      /* Container */
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      /* Header */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 2px solid #ddd;
+      }
+
+      header .logo {
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #2c5282;
+      }
+
+      nav a {
+        margin-left: 1.5rem;
+        text-decoration: none;
+        color: #2c5282;
+        font-weight: 600;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      /* Main layout: sidebar + content */
+      main {
+        display: flex;
+        margin-top: 2rem;
+        gap: 2rem;
+        flex: 1;
+      }
+
+      /* Sidebar */
+      aside.sidebar {
+        flex: 0 0 250px;
+        background: #e2e8f0;
+        padding: 1.5rem;
+        border-radius: 8px;
+        height: fit-content;
+      }
+
+      aside.sidebar h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        color: #2c5282;
+      }
+
+      aside.sidebar ul {
+        list-style: none;
+      }
+
+      aside.sidebar ul li + li {
+        margin-top: 0.75rem;
+      }
+
+      aside.sidebar a {
+        color: #2d3748;
+        text-decoration: none;
+      }
+
+      aside.sidebar a:hover {
+        color: #2c5282;
+        text-decoration: underline;
+      }
+
+      /* Content */
+      section.content {
+        flex: 1;
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      section.content article.post {
+        margin-bottom: 2rem;
+      }
+
+      section.content article.post h2 {
+        color: #2c5282;
+        margin-bottom: 0.5rem;
+      }
+
+      section.content article.post p.meta {
+        font-size: 0.85rem;
+        color: #718096;
+        margin-bottom: 1rem;
+      }
+
+      section.content article.post p {
+        font-size: 1rem;
+        color: #4a5568;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        main {
+          flex-direction: column;
+        }
+        aside.sidebar {
+          flex: none;
+          width: 100%;
+          margin-bottom: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">Eko’s Blog</div>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <aside class="sidebar">
+          <h2>Categories</h2>
+          <ul>
+            <li><a href="#">Programming</a></li>
+            <li><a href="#">Life</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Books</a></li>
+          </ul>
+        </aside>
+
+        <section class="content">
+          <article class="post">
+            <h2>How I Learned to Code</h2>
+            <p class="meta">August 8, 2025 • 5 min read</p>
+            <p>
+              This journey started when I was curious about computers. I started
+              with HTML and CSS, then...
+            </p>
+          </article>
+
+          <article class="post">
+            <h2>Why Daily Writing Changed My Life</h2>
+            <p class="meta">August 5, 2025 • 3 min read</p>
+            <p>
+              Writing every day helped me focus, clarify my thoughts, and become
+              more creative...
+            </p>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
