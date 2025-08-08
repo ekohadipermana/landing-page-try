@@ -4,3 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(198, 202, 209);
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+}
