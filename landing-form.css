@@ -20,5 +20,12 @@ body {
 }
 
 .card h3 {
-    
+    margin-bottom: 1rem;
 }
+
+.card p {
+    margin-bottom: 1rem;
+    font-size: small;
+    line-height: 1.2rem;
+}
+
