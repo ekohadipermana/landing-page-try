@@ -4,3 +4,14 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: coral;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    padding: 15px 20px;
+    background-color: rgb(233, 231, 228);
+}
+
