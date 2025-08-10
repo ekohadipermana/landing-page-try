@@ -48,3 +48,17 @@ body {
     text-transform: uppercase;
 }
 
+.description {
+    margin-bottom: 30px;
+    font-size: small;
+}
+
+a {
+    border: solid 1px black;
+    text-decoration: none;
+    padding: 5px 40px;
+    font-size: small;
+    color: black;
+    border-radius: 5px;
+}
+
