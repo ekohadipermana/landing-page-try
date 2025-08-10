@@ -10,15 +10,11 @@ body {
 }
 
 .container {
-    background-color: whitesmoke;
-    max-width: 600px;
+    background-color: rgb(204, 213, 224);
+    max-width: 800px;
     margin: 100px auto;
     border-radius: 10px;
-}
-
-.cards {
-    display: flex;
     padding: 30px;
-    background-color: antiquewhite;
+    display: flex;
 }
 
