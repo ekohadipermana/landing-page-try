@@ -98,3 +98,11 @@ ul li::before {
     background-color: black;
     color: white;
 }
+
+@media(max-width: 805px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+    }
+}
