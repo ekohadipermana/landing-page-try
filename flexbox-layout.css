@@ -63,3 +63,26 @@ nav a {
     line-height: 1.5;
     font-size: 15px;
 }
+
+@media(max-width: 576px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+    }
+
+    nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: rgb(233, 231, 228);
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    
+}
+}
