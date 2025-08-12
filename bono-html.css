@@ -20,10 +20,11 @@ body {
 }
 
 .main {
-    padding: 1rem;
+    padding: 1rem 8rem;
     display: flex;
     justify-content: space-between;
     gap: 8rem;
+    margin-top: 2rem;
 }
 
 .main-form {
