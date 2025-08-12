@@ -31,3 +31,8 @@ body {
     flex-direction: column;
     
 }
+
+.main-form input {
+    width: 14rem;
+}
+
