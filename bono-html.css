@@ -22,7 +22,7 @@ body {
 .main {
     padding: 1rem 8rem;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -52,4 +52,12 @@ body {
     border: none;
     background-color: brown;
     color: white;
+}
+
+.main-form-block {
+    flex: 1;
+}
+
+.main-description {
+    flex: 1;
 }
