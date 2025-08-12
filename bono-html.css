@@ -36,6 +36,8 @@ body {
 
 .main-form input {
     width: 14rem;
+    border: none;
+    background-color: white;
 }
 
 .main-form input:nth-of-type(3) {
