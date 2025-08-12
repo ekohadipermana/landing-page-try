@@ -46,4 +46,8 @@ body {
     margin-top: 0.5rem;
     width: 14rem;
     padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: brown;
+    color: white;
 }
