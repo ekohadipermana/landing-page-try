@@ -22,3 +22,10 @@
     gap: 2rem;
 }
 
+.main {
+    margin-top: 2rem;
+    display: flex;
+    margin: 5rem;
+    gap: 2rem;
+}
+
