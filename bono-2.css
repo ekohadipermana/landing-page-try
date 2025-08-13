@@ -29,3 +29,10 @@
     gap: 2rem;
 }
 
+.main-form-block {
+    flex: 1;
+}
+
+.main-description {
+    flex: 1;
+}
