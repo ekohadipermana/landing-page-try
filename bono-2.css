@@ -32,6 +32,13 @@
 
 .main-form-block {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
 }
 
 .main-description {
