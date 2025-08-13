@@ -8,13 +8,17 @@
     font-family: sans-serif;
     line-height: 1.5;
     padding: 2rem ;
+    color: white;
+    background-color: black;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-contact {
     display: flex;
     gap: 2rem;
 }
+
