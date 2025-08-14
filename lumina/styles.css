@@ -13,3 +13,12 @@ body {
     --main-color: rgb(63, 61, 61);
     --second-color: rgb(243, 236, 169);
 }
+
+.wrapper {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    margin: 1.5rem 10rem;
+}
