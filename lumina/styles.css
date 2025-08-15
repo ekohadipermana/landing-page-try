@@ -30,6 +30,8 @@ body {
     
 }
 
-footer .contact {
-    color: red;
+.header-contact a {
+    text-decoration: none;
+    color: var(--main-color);
 }
+
