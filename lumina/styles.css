@@ -22,3 +22,11 @@ body {
     display: flex;
     margin: 1.5rem 10rem;
 }
+
+header .contact {
+    background-color: blue;
+}
+
+footer .contact {
+    color: red;
+}
