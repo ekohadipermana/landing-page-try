@@ -37,3 +37,15 @@ body {
     color: var(--main-color);
 }
 
+.hero-text {
+    margin: 1.5rem auto;
+    max-width: 60vw;
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.hero-text h1 {
+    font-weight: 200;
+}
+
