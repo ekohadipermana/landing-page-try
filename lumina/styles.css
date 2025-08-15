@@ -21,10 +21,13 @@ body {
 .header {
     display: flex;
     margin: 1.5rem 10rem;
+    justify-content: space-between;
 }
 
-header .contact {
-    background-color: blue;
+.header-contact {
+    display: flex;
+    gap: 1rem;
+    
 }
 
 footer .contact {
