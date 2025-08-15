@@ -71,3 +71,7 @@ footer {
 .footer-socmed {
     align-content: center;
 }
+
+.color2 {
+    background-color: var(--second-color);
+}
