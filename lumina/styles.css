@@ -20,8 +20,10 @@ body {
 
 .header {
     display: flex;
-    margin: 1.5rem 10rem;
+    margin: 1.5rem auto;
     justify-content: space-between;
+    max-width: 60vw;
+    padding: 0 2rem;
 }
 
 .header-contact {
