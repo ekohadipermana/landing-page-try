@@ -75,3 +75,9 @@ footer {
 .color2 {
     background-color: var(--second-color);
 }
+
+.image-collection {
+    border-top: solid 1px var(--main-color);
+    border-bottom: solid 1px var(--main-color);
+}
+
