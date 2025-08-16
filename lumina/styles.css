@@ -79,5 +79,10 @@ footer {
 .image-collection {
     border-top: solid 1px var(--main-color);
     border-bottom: solid 1px var(--main-color);
+    max-width: 90vw;
+    height: 100vh;
+    background-color: grey;
+    margin: 0 auto;
+    
 }
 
