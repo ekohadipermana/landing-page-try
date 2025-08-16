@@ -92,9 +92,11 @@ footer {
     display: flex;
     flex-direction: row;
     /* gap: 0.5rem; */
-    flex: 1;
+    /* flex: 1; */
     justify-content: space-between;
 }
 
-
+.flex-row img {
+    width: 32%;
+}
 
