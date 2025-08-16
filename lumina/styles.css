@@ -100,5 +100,6 @@ footer {
 
 .flex-row img {
     width: 32%;
+    border-radius: 0.5rem;
 }
 
