@@ -9,3 +9,5 @@ use max-width 1100px
 
 for css use class like:
 .header .main-menu 
+
+create a media responsive on every section step! 
