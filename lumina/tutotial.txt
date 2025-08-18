@@ -11,3 +11,7 @@ for css use class like:
 .header .main-menu 
 
 create a media responsive on every section step! 
+
+Copy Bootstrap traits a lot by creating 
+classes
+
