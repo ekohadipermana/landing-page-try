@@ -19,3 +19,7 @@ use container class for big and smaller container
 
 use rem a lot for responsiveness
 
+remember to create responsive media queries
+on every section process, dont wait until 
+all finished!
+
