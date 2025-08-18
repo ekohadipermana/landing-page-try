@@ -3,3 +3,5 @@ use font awesome
 organize the files into folders
 go section after section in order that is how
 the larger project goes
+
+use div for header : container and header-flex class
