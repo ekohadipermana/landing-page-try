@@ -1,0 +1,3 @@
+use open sans font from google
+use font awesome
+organize the files into folders
