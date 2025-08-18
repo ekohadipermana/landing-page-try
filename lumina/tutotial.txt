@@ -5,3 +5,4 @@ go section after section in order that is how
 the larger project goes
 
 use div for header : container and header-flex class
+use max-width 1100px
