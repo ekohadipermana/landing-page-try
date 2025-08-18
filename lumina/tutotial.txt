@@ -23,3 +23,6 @@ remember to create responsive media queries
 on every section process, dont wait until 
 all finished!
 
+Let's do the coding process at the beginning
+of each day when your mind still fresh!
+
