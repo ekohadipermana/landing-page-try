@@ -49,6 +49,7 @@ body {
     background-repeat: no-repeat;
     flex: 1;
     border-radius: 50px;
+    cursor: pointer;
     h2 {
         font-size: medium;
         color: white;
