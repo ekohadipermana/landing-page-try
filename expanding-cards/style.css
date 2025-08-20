@@ -52,8 +52,11 @@ body {
     h2 {
         font-size: medium;
         color: white;
-        text-align: center;
-        opacity: 0;
+        opacity: 1;
+        margin-top: 50%;
+        margin-left: 1rem;
+
+        
     }
 }
 
@@ -61,5 +64,6 @@ body {
     flex: 5;
     h2 {
         opacity: 1;
+        
     }
 }
