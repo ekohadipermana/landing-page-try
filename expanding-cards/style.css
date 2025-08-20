@@ -56,3 +56,7 @@ body {
         opacity: 0;
     }
 }
+
+.card.active {
+    flex: 5;
+}
