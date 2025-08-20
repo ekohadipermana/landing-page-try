@@ -59,4 +59,7 @@ body {
 
 .card.active {
     flex: 5;
+    h2 {
+        opacity: 1;
+    }
 }
