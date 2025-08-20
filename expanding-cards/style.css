@@ -50,6 +50,7 @@ body {
     flex: 1;
     border-radius: 50px;
     cursor: pointer;
+    transition: flex 0.7s ease-in;
     h2 {
         font-size: medium;
         color: white;
